@@ -1,7 +1,7 @@
 // Unified Global Scroll & Canvas Renderer Engine — Shivam Jaiswal Portfolio
 (function() {
   const TOTAL_FRAMES = 240;
-  const FRAME_PATH = (index) => `./frames/frame_${String(index).padStart(4, '0')}.jpg`;
+  const FRAME_PATH = (index) => `./frame_${String(index).padStart(4, '0')}.jpg`;
   
   // DOM Elements
   const canvas = document.getElementById('animation-canvas');
